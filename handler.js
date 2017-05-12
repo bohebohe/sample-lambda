@@ -4,7 +4,7 @@ module.exports.hello = (event, context, callback) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'Hello CodeShip!! Go Serverless v1.0! Your function executed successfully!',
+      message: 'Good Morning CodeShip!! Go Serverless v1.0! Your function executed successfully!',
       input: event,
     }),
   };
